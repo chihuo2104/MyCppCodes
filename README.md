@@ -1,2 +1,2 @@
-# This is a Private-Repository
+# This is a C++-Repository
 # Warning! The file is c++
