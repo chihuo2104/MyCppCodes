@@ -34,9 +34,9 @@ int main()
 //		} 
 //	}
 	sort(ydy,ydy+i,mycmp);
-	printf("%04d %04d",ydy[n-1].id,ydy[0].id);
+	printf("%04d %04d",ydy[0].id,ydy[n-1].id);
 }
-bool mycomp(YDY x,YDY y)
+bool mycmp(YDY x,YDY y)
 {
 	return x.length<y.length;
 }

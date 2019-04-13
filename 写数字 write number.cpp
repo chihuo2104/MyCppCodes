@@ -16,6 +16,7 @@ int main()
 		count+=a[i]-'0';
 	}
 	intger=itoa(count,intger);
+	reverse(intger.begin(),intger.end());
 	cout<<py[intger[0]-'0'];
 	for(int i=1;i<intger.size();i++)
 	{
@@ -34,6 +35,5 @@ string itoa(int num,string chr)
 		nnum=num/10;
 		num=nnum;
 	}
-	reverse(chr.begin(),chr.end());
 	return chr;
 } 
